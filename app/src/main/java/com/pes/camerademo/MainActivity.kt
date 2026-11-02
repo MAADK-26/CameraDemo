@@ -63,7 +63,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
     ) { bitmap ->
         if (bitmap != null) {
             previewBitmap = bitmap
-            status = "Preview captured. This bitmap is in memory and is not automatically saved."
+            status = "Preview captured . This bitmap is in memory and is not automatically saved."
         } else {
             status = "Preview capture cancelled or no preview returned."
         }
